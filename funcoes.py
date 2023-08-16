@@ -76,4 +76,6 @@ def stats_print(df):
     print("-*-"*10)
 
 def parity_check(arr_1d):
-    arr_1d[]
+    arr_1d_index = np.where(arr_1d%2==0,1,-1)
+
+    return arr_1d_index
