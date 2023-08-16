@@ -11,3 +11,6 @@ arr_parity_mod = parity_check(arr_a7_stacked)
 print(arr_parity_mod)
 
 stats_print(a5_1d)
+
+print("Questao 6: ", questao_6)
+print("Questao 7: ", questao_7)

@@ -79,3 +79,15 @@ def parity_check(arr_1d):
     arr_1d_index = np.where(arr_1d%2==0,1,-1)
 
     return arr_1d_index
+
+#6
+def questao_6(vetor1, vetor2):
+    produto_vetorial = np.cross(vetor1,vetor2)
+    return produto_vetorial
+
+#7
+def questao_7(array):
+    matriz_identidade = np.identity(3)
+    determinante = np.linalg.det(matriz_identidade)
+    matriz_inversa = np.linalg.inv(matriz_identidade)
+    return matriz_identidade, determinante, matriz_inversa
